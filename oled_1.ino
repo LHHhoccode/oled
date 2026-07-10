@@ -6,7 +6,7 @@ Adafruit_SSD1306 display(128, 64, &Wire, -1);
 
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
+  Serial.begin(115200);
   Wire.begin(8, 9);
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.clearDisplay();
