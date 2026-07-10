@@ -15,7 +15,7 @@ void setup() {
   display.setCursor(0,0);
   display.println("Hello Hung");
   display.setCursor(10,10);
-  display.println("Arduino");
+  display.println("Anduno");
   display.display();
 
 }
