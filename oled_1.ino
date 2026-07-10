@@ -13,9 +13,9 @@ void setup() {
   display.setTextSize(1);
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0,0);
-  display.println("Hello Hung");
+  display.println("Hello Arduino");
   display.setCursor(10,10);
-  display.println("Arduino");
+  display.println("Hung");
   display.display();
 
 }
